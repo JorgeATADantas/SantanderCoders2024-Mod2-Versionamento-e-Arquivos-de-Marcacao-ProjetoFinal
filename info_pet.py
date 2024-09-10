@@ -5,6 +5,9 @@ def coletar_informacoes_pet():
     # Coleta do nome do pet
     nome = input("Nome do pet: ")
 
+    # Coletar a raça do pet
+    raca = input("Raça do pet: ")
+
     # Coleta da idade do pet, garantindo que seja um número inteiro
     while True:
         try:
@@ -30,6 +33,7 @@ def coletar_informacoes_pet():
     # Exibindo as informações coletadas
     print("\nInformações do pet:")
     print(f"Nome: {nome}")
+    print(f"Raça: {raca}")
     print(f"Idade: {idade} anos")
     print(f"Peso: {peso} kg")
 
